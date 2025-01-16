@@ -35,8 +35,10 @@ const Order = () => {
   }, [])
 
   return (
-    <div className='order add'>
-      <h3>Order Page</h3>
+    <div className="list add flex-col">
+      <h2>Orders</h2>
+      <hr></hr>
+      
       <div className="order-list">
         {orders.map((order, index) => (
           <div key={index} className='order-item'>
