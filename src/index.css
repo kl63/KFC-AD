@@ -29,3 +29,7 @@ hr{
 .cursor{
   cursor: pointer;
 }
+.page-title{
+  color: black;
+  text-align: center;
+}

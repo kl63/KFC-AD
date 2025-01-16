@@ -1,11 +1,17 @@
+@font-face {
+    font-family: 'Flame-Bold';
+    src: url('../../../fonts/Flame.ttf') format('truetype'); 
+}
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 8px 4%;
+    
 }
-.navbar .logo{
-    width: max(10%,80px);
+.navbar h1{
+    font-family: 'Flame-Bold'; 
+    color: orangered;
 }
 .navbar .profile{
     width: 40px;

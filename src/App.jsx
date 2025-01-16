@@ -14,6 +14,7 @@ const App = () => {
       <ToastContainer />
       <Navbar />
       <hr />
+      <h1 className='page-title'>Welcome to the Admin Portal</h1>
       <div className="app-content">
         <Sidebar />
         <Routes>
