@@ -24,6 +24,10 @@ const Sidebar = () => {
                     <img src={assets.order_icon} alt="" />
                     <p>Orders</p>
                 </NavLink>
+                <NavLink to="/UserList" className="sidebar-option">
+                    <img src={assets.order_icon} alt="" />
+                    <p>List Users</p>
+                </NavLink>
                 
                 {/* Add Logout Option */}
                 <div className="sidebar-option">

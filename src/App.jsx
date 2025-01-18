@@ -11,6 +11,8 @@ import Register from './pages/Register/Register';
 import ProtectedRoute from './components/ProtectedRoute/ProtectedRoute';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import ListCustomersAndAdmins from './pages/UserList/UserList';
+import UserList from './pages/UserList/UserList';
 
 const App = () => {
     return (
@@ -19,7 +21,7 @@ const App = () => {
             <Navbar />
             <hr />
             <h1 className="page-title">Welcome to the Admin Portal</h1>
-            <div className="app-content">
+            <div className="app-content">   
                 <Sidebar />
                 <Routes>
                     {/* Public Routes */}
@@ -56,6 +58,14 @@ const App = () => {
                         element={
                             <ProtectedRoute>
                                 <Orders />
+                            </ProtectedRoute>
+                        }
+                    />
+                    <Route
+                        path="/UserList"
+                        element={
+                            <ProtectedRoute>
+                                <UserList />
                             </ProtectedRoute>
                         }
                     />
