@@ -5,7 +5,8 @@ import profile_image from './profile_image.png'
 import upload_area from './upload_area.png'
 import parcel_icon from './parcel_icon.png'
 
-export const url = 'https://kfc-be.onrender.com'
+//export const url = 'https://kfc-be.onrender.com'
+export const url = 'http://localhost:10000'
 export const currency = '$'
 
 export const assets ={
