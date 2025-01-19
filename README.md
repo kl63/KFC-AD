@@ -47,8 +47,8 @@ Follow these instructions to set up the project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/kl63/KFC-FE.git
-   cd KFC-FE
+   git clone https://github.com/kl63/KFC-AD.git
+   cd KFC-AD
 2. Install Dependencies:
    ```bash
    npm install
